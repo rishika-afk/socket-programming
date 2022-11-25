@@ -1,7 +1,7 @@
 #Simple TCP client server application
 import socket
 
-s =  socket.socket()
+s =  socket.socket(AF_INET,SOCK_STREAM)
 host = socket.gethostname()
 port = 1616
 
