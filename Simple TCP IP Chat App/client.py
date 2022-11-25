@@ -1,6 +1,6 @@
 import socket
 
-s = socket.socket(AF_INET,SOCK_DGRAMsa)
+s = socket.socket(AF_INET,SOCK_STREAM)
 host = socket.gehostname()
 port = 1616
 
